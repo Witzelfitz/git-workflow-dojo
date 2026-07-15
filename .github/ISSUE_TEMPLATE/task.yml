@@ -1,0 +1,20 @@
+name: Workshop Task
+description: Kleine Aufgabe fuer den Git-Workflow-Workshop
+title: "[Task] "
+labels:
+  - workshop
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Ziel
+      description: Was soll erreicht werden?
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Erledigt wenn
+      description: Woran erkennt man, dass die Aufgabe fertig ist?
+    validations:
+      required: true
