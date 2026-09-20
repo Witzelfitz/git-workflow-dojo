@@ -2,6 +2,8 @@
 
 **Rahmen:** zehn Personen, fünf Zweierteams, 120 Minuten; Setup vorab. Zitate sind sprechbare Vorschläge, keine auswendig zu lernende Rede. Die Uhrzeiten sind Minuten seit Beginn. [Spickzettel](cheat-sheet.md) daneben öffnen, [Glossar](glossary.md) als Nachschlagewerk bereithalten.
 
+Die [visuelle Präsentation](../presentation/README.md) ergänzt dieses Drehbuch mit 25 Folien und eigenen Sprechernotizen. Dort steht auch die Zuordnung der Folien zu den Workshop-Phasen.
+
 ## Vor Einlass: T−15 bis T0
 
 Workshop-Repo und Teamliste projizieren. Browser-Tabs: README, Issues, Pull Requests. Im Terminal Workshop-Klon öffnen; `git status` und `git remote -v` prüfen. Ein eigenes frisches Labor mit `bash scripts/create-labs.sh` erstellen und die vier Pfade notieren. Dieses Labor für Vorführungen verwenden; Teilnehmende erzeugen ihre eigenen. Keine Live-Demo auf dem gemeinsamen `main`.

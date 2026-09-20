@@ -6,6 +6,7 @@ Zwei Stunden Git-Praxis für zehn Personen in fünf Zweierteams: vom Issue über
 
 - **Teilnehmende:** [Setup](docs/setup.md) vorab erledigen, dann [Teamrollen](docs/roles.md) und [Übung 1](exercises/01-warmup.md) öffnen.
 - **Moderation:** [Vorbereitung](docs/trainer-guide.md), [Drehbuch mit Sprechtext](docs/moderation-script.md) und [Spickzettel](docs/cheat-sheet.md).
+- **Visuelle Präsentation:** [25 Folien mit Diagrammen und Sprechernotizen](presentation/README.md), als PowerPoint, PDF und offline nutzbare Browser-Version.
 - **Begriffe nachschlagen:** [Glossar und typische Fachfragen](docs/glossary.md).
 - **Gesamtüberblick:** [Zeitplan](docs/workshop-flow.md) und [Review der ursprünglichen Übung](docs/review-notes.md).
 
