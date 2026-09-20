@@ -1,11 +1,17 @@
-## Was wurde geaendert?
+## Ziel und Issue
 
-- 
+<!-- Warum ist diese Änderung sinnvoll? Falls passend: Closes #NUMMER -->
 
-## Warum ist das sinnvoll?
+## Was wurde geändert?
 
-- 
+<!-- Die wesentlichen Änderungen kurz beschreiben. -->
 
-## Review-Hinweise
+## Wie wurde geprüft?
 
-- 
+- [ ] Diff gelesen: nur beabsichtigte Änderungen
+- [ ] Markdown-Vorschau und Inhalt geprüft
+- [ ] Abnahmekriterien aus dem Auftrag erfüllt
+
+## Hinweise für das Review
+
+<!-- Was soll besonders geprüft werden? Gibt es offene Fragen? -->

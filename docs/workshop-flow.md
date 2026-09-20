@@ -1,79 +1,31 @@
-# Workshop Flow
+# Fahrplan für 120 Minuten
 
-## Phase 1: Warmup
+Voraussetzung: [Setup](setup.md) ist abgeschlossen. [Drehbuch](moderation-script.md) enthält Sprechtexte und Interventionen.
 
-Ziel: erste saubere Branch- und PR-Routine.
+| Minuten | Auftrag | Checkpoint für die Moderation |
+| --- | --- | --- |
+| 00–05 | Ziel, Campus-Szenario, Teams, Arbeitsorte erklären | Fünf Teams kennen ihren Auftrag |
+| 05–12 | Working Tree → Staging Area → Commit; Branch und PR zeigen | Gruppe unterscheidet Commit und Push |
+| 12–15 | `git status`, Remote und Anmeldung kurz prüfen | Alle können starten; Setup-Probleme sofort paarweise abfedern |
+| 15–25 | [Warmup](../exercises/01-warmup.md): Branch, erste Änderung, erster Commit | Fünf richtige Feature-Branches |
+| 25–35 | Keyboard wechseln; zweite Änderung, Push, PR | Fünf offene PRs mit Ziel und Prüfschritten; nicht mergen |
+| 35–43 | [Review](../exercises/02-review-cycle.md) im Ring | Jede Person hat einen begründeten Beitrag geschrieben |
+| 43–50 | Eine echte Verbesserung einarbeiten und erneut prüfen | Feedback beantwortet, finaler Diff geprüft |
+| 50–55 | Approve, freigegebene PRs mergen, `main` lokal aktualisieren | Fünf gemergte PRs; keine offenen Change Requests |
+| 55–60 | [Labore](../exercises/03-conflicts.md) erstellen, Branchgraph lesen | Jede Person ist im Verzeichnis `conflict` |
+| 60–72 | Merge starten, Konflikt lesen und fachlich lösen | Konfliktmarker entfernt, Datei geprüft, Merge-Commit erstellt |
+| 72–80 | Lösung erklären; bei geteiltem Laptop zweiter Durchlauf | Jede Person kann Ursache und Entscheidung erklären |
+| 80–87 | [Fast-Forward](../exercises/04-history-cleanup.md) durchführen | Branch zeigt auf vorhandenen Commit; kein neuer Commit |
+| 87–97 | Fehlgeschlagenes Fast-Forward, Rebase, erneutes Fast-Forward | Neue Commit-ID und neue Basis erkannt |
+| 97–100 | Vergleich; optional Squash nur bei Zeitreserve | Merge, Rebase und Squash begrifflich getrennt |
+| 100–110 | Drei bis vier Lernfragen mit Begründung | Verständnis prüfen, nicht nur Befehle abfragen |
+| 110–115 | Drei Teamregeln festhalten | Konkreter Transfer in den Arbeitsalltag |
+| 115–120 | Puffer und Abschluss | Offene Punkte und nächster Übungsschritt benannt |
 
-1. Jede Gruppe zieht sich ein Ticket aus `exercises/01-warmup.md`.
-2. Branch-Namensschema:
-   - `team-1/hero-copy`
-   - `team-2/program-update`
-3. Pro Gruppe mindestens 2 Commits:
-   - ein inhaltlicher Commit
-   - ein kleiner Verbesserungs-Commit
-4. PR auf `main` eroeffnen
+## Wenn die Zeit knapp wird
 
-Lernziel:
+Um Minute 35 reichen ein sinnvoller Commit und ein beschriebener PR pro Team; den Rollenwechsel trotzdem durchführen. Bei langsamen Reviews bis Minute 60 verlängern, Squash streichen und Rebase kurz gemeinsam demonstrieren. Den Konflikt-Durchlauf und mindestens fünf Minuten Reflexion erhalten. Fehlende individuelle Praxis ausdrücklich als Anschlussaufgabe festhalten.
 
-- `git switch -c`
-- `git add`
-- `git commit`
-- `git push -u origin ...`
-- PR sauber beschreiben
+## Wenn die Gruppe schneller ist
 
-## Phase 2: Review
-
-Ziel: PRs nicht nur "durchwinken", sondern lesen und kommentieren.
-
-1. Jede Gruppe reviewt den PR einer anderen Gruppe.
-2. Mindestens 2 Review-Kommentare:
-   - 1 Lob oder positive Beobachtung
-   - 1 konkrete Aenderung oder Rueckfrage
-3. Autor:innen bessern nach und pushen erneut.
-
-Lernziel:
-
-- Review-Kultur
-- kleine Nachbesserungen auf demselben Branch
-- Force Push vermeiden, solange nicht noetig
-
-## Phase 3: Konflikte
-
-Ziel: nicht ausweichen, sondern den Konflikt bewusst loesen.
-
-1. Die Trainerperson weist zwei Teams dieselbe Datei aus [exercises/03-conflicts.md](../exercises/03-conflicts.md) zu.
-2. Team A merged zuerst.
-3. Team B aktualisiert den eigenen Branch und loest den Konflikt lokal.
-4. Danach neuer Push und Merge.
-
-Lernziel:
-
-- `git fetch`
-- `git rebase origin/main` oder `git merge origin/main`
-- Konfliktmarker verstehen
-- Entscheidung begruenden
-
-## Phase 4: History Cleanup
-
-Ziel: Unterschied zwischen sauberer lokaler History und chaotischer Verlaufskette verstehen.
-
-1. Jede Gruppe erstellt absichtlich 3 bis 4 Mini-Commits.
-2. Danach:
-   - entweder interaktiver Rebase zum Squashen
-   - oder Vergleich mit Merge-Commit-Variante
-3. Im Plenum kurz anschauen, wie die History aussieht.
-
-Lernziel:
-
-- wann Rebase sinnvoll ist
-- wann ein Merge-Commit ok ist
-- was Fast-Forward bedeutet
-
-## Phase 5: Debrief
-
-Fragen:
-
-- Wo sind Konflikte wirklich entstanden?
-- Was hat Reviews besser gemacht?
-- Welche Branch-Regeln wollt ihr kuenftig fix verwenden?
-- Wann ist Rebase hilfreich und wann verwirrt es eher?
+Das optionale Squash-Labor verwenden oder einen echten PR-Konflikt nach der [Transferaufgabe](../exercises/03-conflicts.md#transfer-ein-konflikt-im-github-pr-optional) nachstellen. Zusätzliche Challenges erst nach dem Checkpoint der gesamten Gruppe starten.
