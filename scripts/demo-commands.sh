@@ -3,7 +3,7 @@
 set -euo pipefail
 
 cat <<'EOF'
-Beispielbefehle fuer den Workshop:
+Beispielbefehle für den Workshop:
 
 git switch -c team-1/hero-copy
 git status

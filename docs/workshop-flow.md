@@ -11,7 +11,7 @@ Ziel: erste saubere Branch- und PR-Routine.
 3. Pro Gruppe mindestens 2 Commits:
    - ein inhaltlicher Commit
    - ein kleiner Verbesserungs-Commit
-4. PR auf `main` eroeffnen
+4. PR auf `main` eröffnen
 
 Lernziel:
 
@@ -28,22 +28,22 @@ Ziel: PRs nicht nur "durchwinken", sondern lesen und kommentieren.
 1. Jede Gruppe reviewt den PR einer anderen Gruppe.
 2. Mindestens 2 Review-Kommentare:
    - 1 Lob oder positive Beobachtung
-   - 1 konkrete Aenderung oder Rueckfrage
+   - 1 konkrete Änderung oder Rückfrage
 3. Autor:innen bessern nach und pushen erneut.
 
 Lernziel:
 
 - Review-Kultur
 - kleine Nachbesserungen auf demselben Branch
-- Force Push vermeiden, solange nicht noetig
+- Force Push vermeiden, solange nicht nötig
 
 ## Phase 3: Konflikte
 
-Ziel: nicht ausweichen, sondern den Konflikt bewusst loesen.
+Ziel: nicht ausweichen, sondern den Konflikt bewusst lösen.
 
 1. Die Trainerperson weist zwei Teams dieselbe Datei aus [exercises/03-conflicts.md](../exercises/03-conflicts.md) zu.
 2. Team A merged zuerst.
-3. Team B aktualisiert den eigenen Branch und loest den Konflikt lokal.
+3. Team B aktualisiert den eigenen Branch und löst den Konflikt lokal.
 4. Danach neuer Push und Merge.
 
 Lernziel:
@@ -51,7 +51,7 @@ Lernziel:
 - `git fetch`
 - `git rebase origin/main` oder `git merge origin/main`
 - Konfliktmarker verstehen
-- Entscheidung begruenden
+- Entscheidung begründen
 
 ## Phase 4: History Cleanup
 
@@ -75,5 +75,5 @@ Fragen:
 
 - Wo sind Konflikte wirklich entstanden?
 - Was hat Reviews besser gemacht?
-- Welche Branch-Regeln wollt ihr kuenftig fix verwenden?
+- Welche Branch-Regeln wollt ihr künftig fix verwenden?
 - Wann ist Rebase hilfreich und wann verwirrt es eher?

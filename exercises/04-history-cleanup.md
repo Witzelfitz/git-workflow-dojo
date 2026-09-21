@@ -5,7 +5,7 @@ Jetzt geht es nicht mehr nur um "funktioniert", sondern um lesbare History.
 ## Aufgabe
 
 1. Erzeugt auf eurem Branch absichtlich 3 bis 4 kleine Mini-Commits.
-2. Macht danach eine Aufraeumrunde.
+2. Macht danach eine Aufräumrunde.
 
 Variante A:
 
@@ -17,7 +17,7 @@ Variante B:
 
 ## Diskussionsfragen
 
-- Welche History hilft euch spaeter beim Debuggen?
+- Welche History hilft euch später beim Debuggen?
 - Wann ist Squashen sinnvoll?
-- Wann ist ein Merge-Commit nuetzlich?
+- Wann ist ein Merge-Commit nützlich?
 - Was bedeutet Fast-Forward in dieser Situation?

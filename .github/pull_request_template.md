@@ -1,4 +1,4 @@
-## Was wurde geaendert?
+## Was wurde geändert?
 
 - 
 

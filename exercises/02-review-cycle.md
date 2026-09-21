@@ -10,10 +10,10 @@ Review-Paare:
 
 ## Auftrag
 
-Jeder Review enthaelt:
+Jeder Review enthält:
 
 - 1 positive Beobachtung
-- 1 Rueckfrage
+- 1 Rückfrage
 - 1 konkrete Verbesserungsidee
 
 ## Danach
@@ -21,7 +21,7 @@ Jeder Review enthaelt:
 Die Autor:innen:
 
 - beantworten den Kommentar
-- nehmen mindestens 1 Aenderung auf
+- nehmen mindestens 1 Änderung auf
 - pushen erneut auf denselben Branch
 - bitten um erneutes Review
 

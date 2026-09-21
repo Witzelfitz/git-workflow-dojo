@@ -6,8 +6,8 @@ Jetzt werden Konflikte absichtlich erzeugt.
 
 Zwei Teams bearbeiten gleichzeitig [app/program.md](../app/program.md):
 
-- Team A aendert den `12:00` Slot
-- Team B aendert denselben `12:00` Slot anders
+- Team A ändert den `12:00` Slot
+- Team B ändert denselben `12:00` Slot anders
 
 ## Konflikt-Set B
 
@@ -27,11 +27,11 @@ Zwei Teams bearbeiten gleichzeitig [app/status-board.md](../app/status-board.md)
 
 1. Team A merged zuerst.
 2. Team B holt `main` auf den eigenen Branch.
-3. Konflikt lokal loesen.
+3. Konflikt lokal lösen.
 4. Entscheidung im PR kurz dokumentieren.
 
 ## Reflexion
 
 - Was war der eigentliche Konflikt?
 - Welche Zeile war fachlich korrekt?
-- Haette man den Konflikt durch bessere Aufteilung vermeiden sollen?
+- Hätte man den Konflikt durch bessere Aufteilung vermeiden sollen?
