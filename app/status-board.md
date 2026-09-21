@@ -2,5 +2,5 @@
 
 - Helfer:innen angemeldet: 12
 - Stromcheck: offen
-- Hauptbuehne: bereit
+- Hauptbühne: bereit
 - Schlechtwetterplan: in Vorbereitung

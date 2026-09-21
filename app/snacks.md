@@ -1,4 +1,4 @@
-# Snack Menu
+# Snack-Menü
 
 - Festival Fries - knusprig mit Paprika-Dip
 - Wrap Corner - mit Poulet oder Falafel

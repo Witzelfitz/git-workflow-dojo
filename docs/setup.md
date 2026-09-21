@@ -12,7 +12,7 @@ Zeitbedarf vorab: etwa 15–30 Minuten. Git ab 2.28, ein Texteditor, Browser, Gi
 6. Nur tatsächlich vorhandene CI-Checks als Pflicht konfigurieren. Dieses Repository enthält keinen App-Build und keinen CI-Workflow. Geprüft werden Diff, Markdown-Vorschau und Auftrag.
 7. URL, Teamzuordnung und [Drehbuch](moderation-script.md) bereitlegen. Alle vier Labore einmal durchspielen.
 
-Die GitHub-Einstellungen sind eine Vorbereitungsliste; diese Dokumentation aktiviert sie nicht. Wie erforderliche Reviews, Bypass und lineare History zusammenwirken, beschreibt [GitHub zu geschützten Branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
+Stand 21.09.2026: Im zentralen Repository `Witzelfitz/git-workflow-dojo` ist `main` geschützt: Pull Request mit mindestens einer zustimmenden Freigabe, erneute Freigabe nach neuen Änderungen und Klärung offener Review-Diskussionen. Direkte Pushes, Force-Pushes und das Löschen von `main` sind auch für Admins gesperrt. Merge-Commits bleiben erlaubt; eine lineare History und CI-Checks werden nicht erzwungen. Für Workshop-Kopien müssen diese Einstellungen separat eingerichtet werden. Wie erforderliche Reviews, Bypass und lineare History zusammenwirken, beschreibt [GitHub zu geschützten Branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
 
 ## Teilnehmende: Klon und Identität prüfen
 
